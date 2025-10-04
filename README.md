@@ -127,11 +127,11 @@ python src/main.py --eval
 
 * **Training & Validation Metrics.png** — Accuracy and loss curves
 
-<img src="results/Training & Validation Metrics.png" alt="Confusion Matrix" width="500"/>
+![Training and Validation Metrics](results/Training%20&%20Validation%20Metrics.png)
 
 * **Confusion Matrix.png** — Classification performance on test set
 
-<img src="results/Confusion Matrix.png" alt="Confusion Matrix" width="500"/>
+![Confusion Matrix](results/Confusion%20Matrix.png
 
 * **Model Checkpoints** — Saved weights for reuse and inference
 
