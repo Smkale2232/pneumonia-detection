@@ -1,0 +1,5 @@
+[MASTER]
+init-hook='import sys; sys.path.append("src")'
+
+[TYPECHECK]
+generated-members=numpy.*, tensorflow.*, torch.*

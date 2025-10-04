@@ -1,0 +1,28 @@
+# config/config.yaml
+model:
+  base_model: "MobileNetV2"
+  img_size: [224, 224]
+  batch_size: 16
+  learning_rate: 0.001
+  fine_tune_learning_rate: 0.0001
+
+training:
+  epochs: 25
+  fine_tune_epochs: 15
+  patience: 8
+  unfreeze_layers: 40
+
+data:
+  train_dir: "data/chest_xray/train"
+  val_dir: "data/chest_xray/val"
+  test_dir: "data/chest_xray/test"
+  augmentation:
+    rotation: 0.15
+    zoom: 0.15
+    flip: "horizontal_and_vertical"
+    contrast: 0.1
+
+paths:
+  model_save: "models/best_pneumonia_model.h5"
+  logs: "logs/"
+  results: "results/"

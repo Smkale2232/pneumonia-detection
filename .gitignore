@@ -1,0 +1,9 @@
+# .gitignore
+data/chest_xray/**/*.jpeg
+data/chest_xray/**/*.jpg
+data/chest_xray/**/*.png
+models/*.h5
+logs/
+__pycache__/
+*.pyc
+.DS_Store

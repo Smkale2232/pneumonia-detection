@@ -1,0 +1,13 @@
+name: pneumonia-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - tensorflow=2.13
+  - matplotlib
+  - seaborn
+  - numpy
+  - scikit-learn
+  - opencv
+  - pyyaml
