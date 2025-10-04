@@ -55,7 +55,7 @@ A deep learning pipeline for detecting pneumonia from chest X-ray images using T
 You can use the **Chest X-Ray Images (Pneumonia)** dataset from Kaggle, which is a commonly used benchmark.  
 Kaggle dataset: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
-The dataset is organized into three splits (train, test, val), with subfolders for `NORMAL` and `PNEUMONIA` classes. :contentReference[oaicite:1]{index=1}
+The dataset is organized into three splits (train, test, val), with subfolders for `NORMAL` and `PNEUMONIA` classes.
 
 
 ### 1. Clone the Repository
@@ -126,7 +126,13 @@ python src/main.py --eval
 ## 📊 Results
 
 * **Training & Validation Metrics.png** — Accuracy and loss curves
+
+<img src="results/Training & Validation Metrics.png" alt="Confusion Matrix" width="500"/>
+
 * **Confusion Matrix.png** — Classification performance on test set
+
+<img src="results/Confusion Matrix.png" alt="Confusion Matrix" width="500"/>
+
 * **Model Checkpoints** — Saved weights for reuse and inference
 
 ---
